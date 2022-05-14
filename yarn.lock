@@ -960,7 +960,23 @@ fast-uri@^1.0.1:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-1.0.1.tgz#dd637f093bccf17ebea58a70c178ee8a70b5aa45"
   integrity sha512-dbO/+ny6lX4tt7pvfPMTiHfQVR5igYKFa5BJ2a21TWuOgd2ySp5DYswsEGuMcJZLL3/eJ/MQJ5KNcXyNUvDt8w==
 
-fastify-plugin@^3.0.0:
+"fastify-express-deprecated@npm:fastify-express@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/fastify-express/-/fastify-express-0.3.3.tgz#d87acf6461e91ff141864e191abf25b9bdd3a262"
+  integrity sha512-1b95R59zUJET/RQg3RaOeHq7DToDaFr1Nslhd/ND+zH2sMUe5/fF4gj4XbFt3Nfteay4hXjCWTBjOKe+KUOlMA==
+  dependencies:
+    express "^4.17.1"
+    fastify-plugin "^3.0.0"
+
+fastify-express@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/fastify-express/-/fastify-express-0.4.0.tgz#1161a50828dfdc1e7ca02c9583b42d243d33882d"
+  integrity sha512-+GAf9ZNl25Zn5dDxilY45zyFBR6t8WfHqxcjHd1K6dEtZiaGMoc9xDh4VzORQ8NNItFzsMNPy5+UImxAxUAJxg==
+  dependencies:
+    fastify-express-deprecated "npm:fastify-express@0.3.3"
+    process-warning "^1.0.0"
+
+fastify-plugin@^3.0.0, fastify-plugin@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.1.tgz#79e84c29f401020f38b524f59f2402103fd21ed2"
   integrity sha512-qKcDXmuZadJqdTm6vlCqioEbyewF60b/0LOFCcYN1B6BIZGlYJumWWOYs70SFYLDAH4YqdE1cxH/RKMG7rFxgA==
