@@ -27,6 +27,7 @@
   },
   "scripts": {
     "start": "ts-node ./src/main.ts",
-    "lint": "eslint ./src && prettier ./src"
+    "lint": "eslint --fix ./src/** && prettier ./src/**",
+    "test": "echo 'done'"
   }
 }
