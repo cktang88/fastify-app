@@ -10,4 +10,5 @@
 ### devx
 - eslint
 - prettier
+- vitest
 - hooks with [lefthook](https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md)
