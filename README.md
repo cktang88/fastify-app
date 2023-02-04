@@ -4,7 +4,7 @@
 - Mikro ORM
 - Zod
 - @trpc
-- queue: `piscina` or `bullmq` or `bree`
+- queue: ~~piscina~~ (unmaintained since dec 2021) or `bullmq` or `bree` or just SNS/SQS
 
 
 ### devx
